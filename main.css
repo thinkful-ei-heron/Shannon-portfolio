@@ -2,11 +2,21 @@
   box-sizing: border-box;
 }
 
+/* font-family: 'Yeseva One', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Merriweather', serif; */
+
+
 body {
   color: #444;
+  font-family: 'Merriweather', serif;
+  line-height: 1.4;
+  font-size: 16px;
+
 }
 
 nav {
+  font-family: 'Merriweather Sans', sans-serif;
   width:100%;
   padding: 1% 0;
   background-color: #aaa;
@@ -19,6 +29,7 @@ nav {
 }
 
 header {
+  margin-top: 8%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,11 +42,25 @@ section {
   padding: 6% 3%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 section:nth-child(even) {
   background-color: #ddd;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: 'Yeseva One', cursive;
+}
+
+h2 ,h3 {
+  font-size: 1.3rem;
+  font-family: 'Yeseva One', cursive;
+}
+.introStatementSub, .interests {
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .imgHolder{
@@ -53,10 +78,72 @@ width:80%;
   padding: 0;
   text-align: center;
   list-style: none;
-  width: 80%;
+  width: 90%;
 }
 
 p {
-  width: 80%;
+  width: 90%;
 }
 
+.contactInfo {
+  width: 100%;
+  list-style:none;
+  padding: 0;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.dashedLine {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+  width: 80%;
+  border-bottom: 2px dashed grey;
+}
+
+.linksToProject {
+  width: 90%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.iconGroup {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.3rem;
+  list-style: none;
+  padding: 0;
+}
+
+.iconGroup li {
+  display:inline-block;
+}
+
+
+a:link, a:visited {
+  color: black;
+}
+
+a:hover {
+  font-size: 2rem;
+  color: pink;
+}
+
+a:active {
+  font-size: 2rem;
+  color: palevioletred;
+}
+
+i {
+  margin: 3px;
+}
+
+ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactIconLinks {
+  font-size: 2rem;
+}
