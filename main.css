@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
 /* font-family: 'Yeseva One', cursive;
 font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Merriweather', serif; */
@@ -9,11 +12,8 @@ font-family: 'Merriweather', serif; */
 
 body {
   color: #141719;
-
   font-family: 'Merriweather', serif;
   line-height: 1.4;
-  font-size: 16px;
-
 }
 
 nav {
@@ -38,7 +38,7 @@ header {
   align-items: center;
   padding: 6% 3%;
   text-align: center;
-  color:515a60;
+  color:#141719;
 }
 
 
@@ -69,7 +69,7 @@ h2 ,h3 {
 }
 
 .imgHolder{
-margin-top: 2%;
+margin-top: 6%;
 width:80%;
 
 }
@@ -153,4 +153,105 @@ ul {
 
 .contactIconLinks {
   font-size: 2rem;
+}
+
+
+@media only screen and (min-width: 350px) {
+  .imgHolder {
+    width: 70%;
+  }
+  h1{
+    font-size: 1.3rem;
+  }
+
+  h2, h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .imgHolder {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .imgHolder {
+    width: 49%;
+  }
+  .projects:hover {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 595px) {
+  .imgHolder {
+    width: 41%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+html {
+  font-size: 18px;
+}
+header {
+flex-direction: row;
+justify-content: center;
+}
+.introStatements {
+ width: 50%;
+ text-align: center;
+}
+.quiz {
+  width: 90%;
+  margin: 10px;
+}
+  .imgHolder {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 2%;
+  }
+  p, .interests {
+    width: 70%;
+  }
+  .dashedLine {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .imgHolder {
+    width: 45%;
+  }
+
+@media only screen and (min-width: 800px) {
+  .imgHolder {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .imgHolder {
+    width: 35%;
+  }
+  p, .interests {
+    width: 60%;
+  }
+  .dashedLine {
+    width: 50%;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .imgHolder {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .imgHolder {
+    width: 25%;
+  }
 }
