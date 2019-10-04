@@ -8,7 +8,7 @@ font-family: 'Merriweather', serif; */
 
 
 body {
-  color: #444;
+  color: #141719;
 
   font-family: 'Merriweather', serif;
   line-height: 1.4;
@@ -21,8 +21,8 @@ nav {
   font-family: 'Merriweather Sans', sans-serif;
   width:100%;
   padding: 1% 0;
-  background-color:#EAEAEA;
-  color:#788791;
+  background-color:#b59ea0;
+  color:#141719;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,13 +32,13 @@ nav {
 }
 
 header {
-  background-color:#b5adae;
-  margin-top: 8%;
+  background-color:#EAEAEA;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 6% 3%;
   text-align: center;
+  color:515a60;
 }
 
 
@@ -69,6 +69,7 @@ h2 ,h3 {
 }
 
 .imgHolder{
+margin-top: 2%;
 width:80%;
 
 }
@@ -129,7 +130,7 @@ p {
 
 
 a:link, a:visited {
-  color: #444;
+  color: #141719;
 }
 
 a:hover {
