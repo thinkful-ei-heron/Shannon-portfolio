@@ -31,14 +31,27 @@ nav {
   text-align: center;
 }
 
+.navBarList{
+  display:flex;
+  justify-content: center;
+}
+
+.navBarList li {
+  margin-left: 3px;
+  margin-right:3px;
+}
+
 header {
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.3) 100%), url("./images/colorTiles.png");
   background-color:#EAEAEA;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 6% 3%;
   text-align: center;
   color:#141719;
+  min-height: 690px;
 }
 
 
@@ -128,13 +141,16 @@ p {
   display:inline-block;
 }
 
+a {
+  text-decoration: none;
+}
 
 a:link, a:visited {
   color: #141719;
 }
 
 a:hover {
-  color: #969772;
+  color: #808261;
 }
 
 a:active {
@@ -155,6 +171,17 @@ ul {
   font-size: 2rem;
 }
 
+
+footer {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 400px;
+  padding: 6%;;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.3) 100%), url("./images/colorTiles.png");
+}
 
 @media only screen and (min-width: 350px) {
   .imgHolder {
