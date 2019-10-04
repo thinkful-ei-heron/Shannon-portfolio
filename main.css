@@ -9,6 +9,7 @@ font-family: 'Merriweather', serif; */
 
 body {
   color: #444;
+
   font-family: 'Merriweather', serif;
   line-height: 1.4;
   font-size: 16px;
@@ -16,10 +17,12 @@ body {
 }
 
 nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: 'Merriweather Sans', sans-serif;
   width:100%;
   padding: 1% 0;
-  background-color: #aaa;
+  background-color:#EAEAEA;
+  color:#788791;
   position: fixed;
   top: 0;
   left: 0;
@@ -29,6 +32,7 @@ nav {
 }
 
 header {
+  background-color:#b5adae;
   margin-top: 8%;
   display: flex;
   flex-direction: column;
@@ -37,8 +41,9 @@ header {
   text-align: center;
 }
 
+
 section {
-  background-color: #bbb;
+  background-color: #EAEAEA;
   padding: 6% 3%;
   display: flex;
   flex-direction: column;
@@ -47,7 +52,7 @@ section {
 }
 
 section:nth-child(even) {
-  background-color: #ddd;
+  background-color: #788791;
 }
 
 h1 {
@@ -69,9 +74,12 @@ width:80%;
 }
 .self-photo {
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project{
   width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .interests {
@@ -99,7 +107,7 @@ p {
   margin-right:auto;
   margin-bottom: 10px;
   width: 80%;
-  border-bottom: 2px dashed grey;
+  border-bottom: 3px dashed #969772;
 }
 
 .linksToProject {
@@ -121,17 +129,15 @@ p {
 
 
 a:link, a:visited {
-  color: black;
+  color: #444;
 }
 
 a:hover {
-  font-size: 2rem;
-  color: pink;
+  color: #969772;
 }
 
 a:active {
-  font-size: 2rem;
-  color: palevioletred;
+  color: #969772;
 }
 
 i {
