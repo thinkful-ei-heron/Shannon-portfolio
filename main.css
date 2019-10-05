@@ -234,8 +234,8 @@ flex-direction: row;
 justify-content: center;
 }
 .introStatements {
- width: 50%;
- text-align: center;
+width: 50%;
+text-align: center;
 }
 .quiz {
   width: 90%;
@@ -259,6 +259,7 @@ justify-content: center;
   .imgHolder {
     width: 45%;
   }
+}
 
 @media only screen and (min-width: 800px) {
   .imgHolder {
