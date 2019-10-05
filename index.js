@@ -4,7 +4,6 @@ const fadeIn = function () {
 };
 
 
-
 $(fadeIn);
 
 
