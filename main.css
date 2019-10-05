@@ -43,7 +43,7 @@ nav {
 
 header {
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.3) 100%), url("./images/colorTiles.png");
-  background-color:#EAEAEA;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +51,7 @@ header {
   padding: 6% 3%;
   text-align: center;
   color:#141719;
-  min-height: 690px;
+  min-height: 650px;
 }
 
 
@@ -81,8 +81,10 @@ h2 ,h3 {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+
 .imgHolder{
-margin-top: 6%;
+margin-top: 1%;
+margin-bottom:1%;
 width:80%;
 
 }
@@ -181,6 +183,7 @@ footer {
   padding: 6%;;
   width: 100%;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.3) 100%), url("./images/colorTiles.png");
+  background-position: center;
 }
 
 @media only screen and (min-width: 350px) {
