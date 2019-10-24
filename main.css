@@ -68,6 +68,13 @@ section {
   align-items: center;
 }
 
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 section:nth-child(even) {
   background-color: #788791;
 }
@@ -195,6 +202,7 @@ footer {
   background-size: cover;
 }
 
+
 @media only screen and (min-width: 350px) {
   .imgHolder {
     width: 70%;
@@ -217,9 +225,6 @@ footer {
 @media only screen and (min-width: 500px) {
   .imgHolder {
     width: 49%;
-  }
-  .projects:hover {
-    width: 60%;
   }
 }
 
@@ -257,6 +262,8 @@ text-align: center;
   .dashedLine {
     width: 60%;
   }
+
+
 }
 
 @media only screen and (min-width: 750px) {
